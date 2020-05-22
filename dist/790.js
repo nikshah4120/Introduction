@@ -1,0 +1,1 @@
+(window.webpackJsonpintroduction=window.webpackJsonpintroduction||[]).push([[790],{790:(n,t,e)=>{"use strict";e.r(t),e.d(t,{default:()=>u});var o=e(210),i=e.n(o);const u=function(){return i().createElement("div",null,i().createElement("p",null," Hello This is Introduction page "),i().createElement("button",null," Introduction page "))}}}]);
