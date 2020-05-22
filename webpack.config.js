@@ -3,7 +3,7 @@ var webpack=require('webpack');
 var htmlWebpackPlugin=require('html-webpack-plugin');
 const { ModuleFederationPlugin } = require("webpack").container;
 module.exports = {
-    mode: 'development',
+    mode: 'production',
     entry:"./src/index.js",
     output:{
      //   publicPath: "http://localhost:3002/"
@@ -55,7 +55,7 @@ module.exports = {
       },*/
       plugins:[
         new htmlWebpackPlugin({
-            template: path.resolve(__dirname,'public/index.html'),
+        template: path.resolve(__dirname,'public/index.html'),
          filename: 'index.html'
         }),
 
