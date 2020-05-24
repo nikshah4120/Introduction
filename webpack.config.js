@@ -6,8 +6,8 @@ module.exports = {
     mode: 'production',
     entry:"./src/index.js",
     output:{
-      // publicPath: "http://localhost:8082/"
-      publicPath: "https://dashboard-introduction.herokuapp.com/"
+       //publicPath: "http://localhost:8082/"
+        publicPath: "https://dashboard-introduction.herokuapp.com/"
     },
     module:{
         rules:[
@@ -42,7 +42,7 @@ module.exports = {
  //    contentBase: path.join(__dirname,"dist"),
   //   port: 3002
    // },
-  /*    optimization: {
+       optimization: {
         splitChunks: {
          cacheGroups: {
              vendor:{
@@ -53,7 +53,7 @@ module.exports = {
              }
         }
     }
-      },*/
+      },
       plugins:[
         new htmlWebpackPlugin({
         template: path.resolve(__dirname,'public/index.html'),
